@@ -23,14 +23,22 @@ Bu projede
 
 # Metrikler
 En yüksek doğruluk oranını veren **Support Vector Machine(SVM) modeli ile detaylı bir değerlendirme yaptım.Modelimin başarısını değerlendirmek için kullandığım **metrikler:**
+
 -Confusion Matrix
+
 -Accuracy
+
 -Precision
+
 -Recall
+
 -F1-Score
+
 **Confusion matrix** sonucum:
+
 [[2140 69]
-[ 30 1488]] çıktı.
+[ 30 1488]]
+çıktı.
 Bu matris, modelimin sınıfları ne kadar doğru tahmin ettiğini gösterdi:
 - 2140 adet gerçek e-posta doğru şekilde tanındı.
 - 1488 adet phishing e-posta doğru olarak yakalandı.
@@ -42,7 +50,7 @@ Bu matris, modelimin sınıfları ne kadar doğru tahmin ettiğini gösterdi:
 - **F1-Score:** Precision ve Recall'un dengeli ortalaması → %97
 
 Bu metrikler modelimin sahte e-posta için güçlü ve güvenilir olduğunu kanıtladı.Kullanıcıların güvenliğini sağlayacak bir sistemde yanlış alarm oranının düşük olması kritik öneme sahiptir.Yüksek başarı oranı, bu tür bir modelin siber güvenlik sistemlerinde gerçek hayatta da kullanılabileceğini gösteriyor.
-#Sonuç ve Gelecek Çalışmalar
+# Sonuç ve Gelecek Çalışmalar
 
 Bu proje ile, metin madenciliği ve makine öğrenmesi tekniklerini birleştirerek sahte (phishing) e-postaları tespit edebilen bir sistem geliştirdim.  
 Gerçek hayatta insanların sadece bir tıkla önemli bilgilerini kaybettiği senaryoları düşündüğümde, bu çalışmanın dijital güvenlik adına **anlamlı ve uygulanabilir bir çözüm sunduğunu** düşünüyorum.
